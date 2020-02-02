@@ -4,7 +4,7 @@
 
 #### **All values are required unless otherwise noted**
 
-### POST  https://ride-for-life-back-end.herokuapp.com/api/auth/register_user
+### POST  https://build-ride-for-life.herokuapp.com/api/auth/register_user
 * Endpoint to register a new user
 * Request example:
 
@@ -34,7 +34,7 @@
 }
 ```
 
-### POST  https://ride-for-life-back-end.herokuapp.com/api/auth/register_driver
+### POST  https://build-ride-for-life.herokuapp.com/api/auth/register_driver
 * Endpoint to register a new driver
 * Request example:
 
@@ -64,7 +64,7 @@
 }
 ```
 
-### POST  https://ride-for-life-back-end.herokuapp.com/api/auth/user_login
+### POST  https://build-ride-for-life.herokuapp.com/api/auth/user_login
 * Endpoint to login as a user
 * Request example: 
 
@@ -84,7 +84,7 @@
 }
 ```
 
-### POST  https://ride-for-life-back-end.herokuapp.com/api/auth/driver_login
+### POST  https://build-ride-for-life.herokuapp.com/api/auth/driver_login
 * Endpoint to login as a driver
 * Request example:
 
@@ -108,10 +108,10 @@
 ## **The following endpoints require a Token**
 ------------------------------------------
 
-### GET  https://ride-for-life-back-end.herokuapp.com/api/drivers
+### GET  https://build-ride-for-life.herokuapp.com/api/drivers
 * Endpoint to get list of all drivers
 
-### GET https://ride-for-life-back-end.herokuapp.com/api/drivers/:id
+### GET https://build-ride-for-life.herokuapp.com/api/drivers/:id
 
 * Endpoint to get single driver by id
 * Returns driver's info:
@@ -129,7 +129,7 @@
 }
 ```
 
-### GET https://ride-for-life-back-end.herokuapp.com/api/drivers/:id/reviews
+### GET https://build-ride-for-life.herokuapp.com/api/drivers/:id/reviews
 
 * Endpoint to get all reviews associated with a specific driver id
 * Returns an array of review objects:
@@ -148,7 +148,7 @@
 ]
 ```
 
-### PUT https://ride-for-life-back-end.herokuapp.com/api/drivers/:id
+### PUT https://build-ride-for-life.herokuapp.com/api/drivers/:id
 
 * Endpoint to update info for a driver
 * Request example:
@@ -174,7 +174,7 @@
 }
 ```
 
-### DELETE https://ride-for-life-back-end.herokuapp.com/api/drivers/:id
+### DELETE https://build-ride-for-life.herokuapp.com/api/drivers/:id
 
 * Endpoint to delete a driver
 * Returns success message:
@@ -185,7 +185,7 @@
 }
 ```
 
-### GET https://ride-for-life-back-end.herokuapp.com/api/users/:id
+### GET https://build-ride-for-life.herokuapp.com/api/users/:id
 
 * Endpoint to get user by id
 * Returns user's info:
@@ -203,7 +203,7 @@
 }
 ```
 
-### GET https://ride-for-life-back-end.herokuapp.com/api/users/:id/reviews
+### GET https://build-ride-for-life.herokuapp.com/api/users/:id/reviews
 
 * Endpoint to get all reviews associated with a user id
 * Returns an array of review objects:
@@ -222,7 +222,7 @@
 ]
 ```
 
-### PUT https://ride-for-life-back-end.herokuapp.com/api/users/:id
+### PUT https://build-ride-for-life.herokuapp.com/api/users/:id
 
 * Endpoint to update info for a user
 * Request example:
@@ -250,7 +250,7 @@
 }
 ```
 
-### DELETE https://ride-for-life-back-end.herokuapp.com/api/users/:id
+### DELETE https://build-ride-for-life.herokuapp.com/api/users/:id
 
 * Endpoint to delete a user
 * Returns success message:
@@ -261,7 +261,7 @@
 }
 ```
 
-### POST https://ride-for-life-back-end.herokuapp.com/api/reviews
+### POST https://build-ride-for-life.herokuapp.com/api/reviews
 
 * Endpoint to add a review
 * Request example:
@@ -291,7 +291,7 @@
 }
 ```
 
-### PUT https://ride-for-life-back-end.herokuapp.com/api/reviews/:id
+### PUT https://build-ride-for-life.herokuapp.com/api/reviews/:id
 
 * Endpoint to update a review
 * Request example:
@@ -321,7 +321,7 @@
 }
 ```
 
-### DELETE https://ride-for-life-back-end.herokuapp.com/api/reviews/:id
+### DELETE https://build-ride-for-life.herokuapp.com/api/reviews/:id
 
 * Endpoint to delete a review
 * Returns success message:
