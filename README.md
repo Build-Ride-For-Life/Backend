@@ -45,6 +45,7 @@
   drivers_phone_number: "455-743-4567",
   drivers_email: "exampledriver@gmail.com",
   password: "password",
+  about_me:"test1", // <------ OPTIONAL
   drivers_price: 50 // <-------- INTEGER
 }
 ```
@@ -59,6 +60,7 @@
   drivers_phone_number: "455-743-4567",
   drivers_email: "exampledriver@gmail.com",
   password: "$2a$11$6KrbRqwqt3cYwbyqtu8xVeIOi1WdsdkDpZS9zBc9W.dVT5k7X/g9W",
+  "about_me":"test1",
   drivers_price: 50,
   role: "driver"
 }
@@ -124,6 +126,7 @@
     "drivers_phone_number": "455-743-4567",
     "drivers_email": "exampledriver@gmail.com",
     "password": "$2a$11$mxRYg747sGwIGz1/TR4ocuTA7Y1okuzqp/g3sWKlDXZrpqAr/oajG",
+    "about_me":"test1",
     "drivers_price": 50,
     "role": "driver"
 }
@@ -169,6 +172,7 @@
     "drivers_phone_number": "234-123-4567",
     "drivers_email": "seeddriver3@gmail.com",
     "password": "$2a$10$nQYuikOFqTed.qKJQyhp1.hNOfIxHbzycv620x60e.pzCoxv/R21W",
+    "about_me":"test1",
     "drivers_price": 85,
     "role": "driver"
 }
