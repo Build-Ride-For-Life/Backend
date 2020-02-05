@@ -20,6 +20,7 @@ exports.up = function(knex) {
         tbl.string('drivers_email').unique().notNullable();
         tbl.string('password').notNullable();
         tbl.integer('drivers_price').unsigned().notNullable();
+        tbl.string('about_me');
         tbl.string('role').defaultTo('driver');
     })
     .createTable('reviews', tbl => {

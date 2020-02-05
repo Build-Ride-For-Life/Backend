@@ -9,6 +9,7 @@ exports.seed = function(knex) {
       drivers_phone_number: '235-143-4567',
       drivers_email: 'seeddriver1@gmail.com',
       password: bcrypt.hashSync('password', 10),
+      about_me:'test3',
       drivers_price: 50
     },
     {
@@ -17,6 +18,7 @@ exports.seed = function(knex) {
       drivers_phone_number: '245-133-1261',
       drivers_email: 'seeddriver2@gmail.com',
       password: bcrypt.hashSync('password', 10),
+      about_me:'test3',
       drivers_price: 40
     },
     {
@@ -25,7 +27,9 @@ exports.seed = function(knex) {
       drivers_phone_number: '234-123-4567',
       drivers_email: 'seeddriver3@gmail.com',
       password: bcrypt.hashSync('password', 10),
+      about_me:'test3',
       drivers_price: 75
+      
     }
   ]);
 }; 
